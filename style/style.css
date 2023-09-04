@@ -1,0 +1,67 @@
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* header section starts here  */
+nav {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 38px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-title {
+    font-size: 45px;
+    font-weight: 700;
+    margin-left: 20px;
+}
+
+.logo-color {
+    color: #FF42A5;
+}
+
+.menus ul {
+    display: flex;
+    align-items: center;
+}
+
+.menus ul li {
+    list-style: none;
+    margin-right: 32px;
+}
+
+.menus ul li a {
+    text-decoration: none;
+    color: #3C354F;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.follow-li {
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    padding: 24px 18px;
+}
+
+.follow-text {
+    color: #3C354F;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.fa-youtube {
+    color: red;
+    margin: 0px 18px;
+}
