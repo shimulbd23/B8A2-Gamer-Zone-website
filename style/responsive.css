@@ -24,6 +24,15 @@
         width: 100%;
     }
 
+    .funny-videos-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding-left: 20px;
+
+    }
+
+
+
 }
 
 
@@ -43,6 +52,17 @@
 
     .menus ul li {
         margin-top: 2rem;
+    }
+
+    .banner-img-container img {
+        width: 100%;
+    }
+
+    .funny-videos-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding-left: 20px;
+
     }
 
 
