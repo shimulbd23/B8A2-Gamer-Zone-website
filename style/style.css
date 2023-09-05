@@ -181,21 +181,68 @@ nav {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 24px;
+
 }
 
 
 
 .funny-videos-img {
     max-width: 342px;
+    position: relative;
 }
 
 .funny-videos-img img {
     width: 100%;
+    height: auto;
+    display: block;
 }
 
-/* .funny-videos-img:hover img {
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2))
-} */
+.funny-videos-img::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 100%);
+    opacity: 0;
+}
+
+.funny-videos-img:hover::before {
+    opacity: 1;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    /* Adjust the background color and opacity as needed */
+    color: white;
+    /* Text color */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.funny-videos-img:hover .overlay {
+    opacity: 1;
+}
+
+.overlay i {
+    font-size: 24px;
+    /* Adjust the icon size as needed */
+}
+
+.overlay p {
+    margin-top: 10px;
+    /* Adjust the spacing between the icon and text */
+}
 
 
 .caption {
