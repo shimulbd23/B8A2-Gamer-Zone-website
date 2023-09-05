@@ -52,6 +52,33 @@
         left: -100px;
     }
 
+    .icons-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 40px;
+    }
+
+    .footer-nav {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        row-gap: 35px;
+        padding-left: 20px;
+    }
+
+    .footer-icons {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        row-gap: 35px;
+        padding-left: 20px;
+    }
+
+    .terms {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding-left: 20px;
+        row-gap: 35px;
+    }
+
 
 }
 
@@ -104,6 +131,12 @@
         position: relative;
         bottom: 100px;
         left: -100px;
+    }
+
+    .icons-container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 40px;
     }
 
 

@@ -306,3 +306,57 @@ nav {
     grid-template-columns: repeat(5, 1fr);
     gap: 40px;
 }
+
+footer {
+    background: #0B0223;
+    color: white;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    margin-top: 146px;
+
+}
+
+.footer-logo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 66px;
+}
+
+.footer-nav {
+    text-align: center;
+    margin-bottom: 66px;
+}
+
+.footer-nav span {
+    margin-right: 66px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+.footer-icons {
+    color: white;
+    font-size: 40px;
+    margin-right: 40px;
+    text-align: center;
+}
+
+.footer-icons i {
+    margin-right: 40px;
+}
+
+.terms {
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-weight: 500;
+    margin-top: 66px;
+    margin-bottom: 66px;
+}
+
+.terms span {
+    margin-right: 60px;
+}
+
+.footer-text {
+    text-align: center;
+}
