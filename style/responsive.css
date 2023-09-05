@@ -4,7 +4,8 @@
 
     nav,
     .menus ul,
-    .banner-container {
+    .banner-container,
+    .play-instantly-container {
         flex-direction: column;
     }
 
@@ -31,6 +32,25 @@
 
     }
 
+    .play-instantly-container {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .play-instantly-container img {
+        width: 50%;
+        padding-left: 150px;
+    }
+
+    .play-instantly-text-container {
+        margin: 0px
+    }
+
+    .mini-img {
+        position: relative;
+        bottom: 100px;
+        left: -100px;
+    }
 
 
 }
@@ -46,7 +66,8 @@
 
     nav,
     .menus ul,
-    .banner-container {
+    .banner-container,
+    .play-instantly-container {
         flex-direction: column;
     }
 
@@ -63,6 +84,26 @@
         grid-template-columns: repeat(2, 1fr);
         padding-left: 20px;
 
+    }
+
+    .play-instantly-container {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .play-instantly-container img {
+        width: 50%;
+        padding-left: 150px;
+    }
+
+    .play-instantly-text-container {
+        margin: 0px
+    }
+
+    .mini-img {
+        position: relative;
+        bottom: 100px;
+        left: -100px;
     }
 
 
